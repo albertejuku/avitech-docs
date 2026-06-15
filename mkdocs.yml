@@ -1,0 +1,72 @@
+site_name: Avitech Cloud - User Manuals
+site_url: https://manual.avitechcloud.com
+site_description: User documentation for Avitech Cloud systems
+site_author: Avitech Cloud
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: light blue
+      accent: cyan
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: light blue
+      accent: cyan
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+    - content.tabs.link
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Billing Portal:
+    - Overview: billing/index.md
+    - Getting Started: billing/getting-started.md
+    - Making Payments: billing/payments.md
+    - Managing Your Account: billing/account.md
+    - Subscriptions: billing/subscriptions.md
+    - Invoices & Receipts: billing/invoices.md
+    - Troubleshooting: billing/troubleshooting.md
+  - Network Portal:
+    - Overview: network/index.md
+    - Checking Connection Status: network/connection-status.md
+    - Speed & Data Usage: network/usage.md
+  - Call Center:
+    - Overview: call-center/index.md
+    - Support Channels: call-center/support-channels.md
+    - Escalation Process: call-center/escalation.md
+  - Subscriber Guide:
+    - Overview: subscriber/index.md
+    - Account Registration: subscriber/registration.md
+    - FAQ: subscriber/faq.md
