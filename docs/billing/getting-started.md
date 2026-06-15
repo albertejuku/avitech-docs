@@ -1,18 +1,47 @@
-# Getting Started with the Billing Portal
+# Logging In
 
-## Logging In
+## Accessing the Portal
 
-1. Go to your billing portal URL
-2. Enter your account number or email address
-3. Enter your password
-4. Click **Sign In**
+Open your browser and navigate to your Avitech Cloud billing portal URL. The login page will appear.
 
-!!! note
-    If this is your first login, use the temporary password sent to your email or phone number.
+*Screenshot: Login page — add image here*
 
-## Resetting Your Password
+## Login Fields
 
-1. Click **Forgot Password** on the login page
-2. Enter your registered email address
-3. Check your inbox for a reset link
-4. Follow the link and set a new password
+| Field | Description |
+|---|---|
+| Email / Username | Your administrator email address or username |
+| Password | Your account password |
+
+Click **Sign In** to proceed.
+
+!!! tip "Forgot your password?"
+    Click **Forgot Password** on the login page to receive a reset link by email.
+
+## After Login
+
+You land on the **Dashboard**, which shows a summary of your system — active subscribers, recent payments, device status, and alerts.
+
+The **sidebar** on the left gives you access to all sections of the portal:
+
+| Section | What's Here |
+|---|---|
+| Dashboard | System overview and key metrics |
+| Subscribers | All subscriber accounts, plans, subscriptions, communications |
+| Billing | Invoices, Payments, Reports |
+| Network | Devices, Zones, Active Sessions |
+| Support | Tickets and automations |
+| Settings | System configuration, users, notifications |
+
+## Recommended First Steps
+
+If you are setting up the portal for the first time:
+
+1. **Create Speed Profiles** — Go to Services → Speed Profiles and define your speed tiers (e.g. 10Mbps, 20Mbps, 50Mbps)
+2. **Create Zones** — Define your coverage zones (e.g. by neighborhood or building)
+3. **Add Devices** — Register your routers and NAS devices under Network → Devices
+4. **Create Plans** — Go to Subscribers → Plans and create your service offerings
+5. **Add Subscribers** — Start adding subscriber accounts and assigning plans
+
+!!! note "Role-Based Access"
+    Depending on your user role, some sections may not be visible or available. Contact your system administrator if you need access to a section that is not shown.

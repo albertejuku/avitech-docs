@@ -1,15 +1,19 @@
-# Avitech Cloud — Documentation
+# Avitech Cloud — Admin Portal Documentation
 
-Welcome to the official Avitech Cloud user documentation. Use the tabs above to navigate between system manuals.
+Welcome to the Avitech Cloud billing and network management portal documentation. This manual covers every feature available to administrators and billing staff.
 
-!!! tip "Need help fast?"
-    Call our support line or visit the [Subscriber FAQ](subscriber/faq.md) for quick answers.
+Use the tabs at the top to navigate between sections.
 
-## Systems
+## Quick Navigation
 
-| System | Description |
+| Section | What you'll find |
 |---|---|
-| [Billing Portal](billing/index.md) | Manage payments, invoices, and subscriptions |
-| [Network Portal](network/index.md) | Monitor your connection and data usage |
-| [Call Center](call-center/index.md) | Contact support and track tickets |
-| [Subscriber Guide](subscriber/index.md) | Account registration and onboarding |
+| [Getting Started](billing/getting-started.md) | Logging in, navigating the portal |
+| [Subscribers](subscribers/index.md) | Create, manage, and monitor subscriber accounts |
+| [Plans](plans/index.md) | Create and manage service plans and pricing |
+| [Subscriptions](subscriptions/index.md) | Manage active subscriptions, renewals, revenue metrics |
+| [Payments](payments/index.md) | Record payments, run STK push, reconcile unmatched payments |
+| [Invoices](invoices/index.md) | Generate and manage invoices |
+
+!!! tip "Subscriber Guide"
+    If you are looking for end-user documentation to share with your customers, see the [Subscriber Guide](subscriber/index.md).

@@ -50,23 +50,42 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - Billing Portal:
-    - Overview: billing/index.md
-    - Getting Started: billing/getting-started.md
-    - Making Payments: billing/payments.md
-    - Managing Your Account: billing/account.md
-    - Subscriptions: billing/subscriptions.md
-    - Invoices & Receipts: billing/invoices.md
-    - Troubleshooting: billing/troubleshooting.md
-  - Network Portal:
-    - Overview: network/index.md
-    - Checking Connection Status: network/connection-status.md
-    - Speed & Data Usage: network/usage.md
-  - Call Center:
-    - Overview: call-center/index.md
-    - Support Channels: call-center/support-channels.md
-    - Escalation Process: call-center/escalation.md
+  - Getting Started:
+    - Logging In: billing/getting-started.md
+    - Portal Overview: billing/index.md
+  - Subscribers:
+    - Overview: subscribers/index.md
+    - Subscriber List: subscribers/list.md
+    - Adding a Subscriber: subscribers/creating.md
+    - Subscriber Details: subscribers/details.md
+    - Subscription Tab: subscribers/subscription-tab.md
+    - Payments Tab: subscribers/payments-tab.md
+    - Sending Messages: subscribers/messaging.md
+    - Bulk Operations: subscribers/bulk-operations.md
+  - Plans:
+    - Overview: plans/index.md
+    - Managing Plans: plans/managing.md
+    - Plan Lifecycle: plans/lifecycle.md
+    - Fair Usage Policy (FUP): plans/fup.md
+  - Subscriptions:
+    - Overview: subscriptions/index.md
+    - Revenue Metrics: subscriptions/metrics.md
+    - Renewing & Changing Plans: subscriptions/renewing.md
+    - Suspending & Cancelling: subscriptions/managing.md
+  - Payments:
+    - Overview: payments/index.md
+    - Recording a Manual Payment: payments/manual.md
+    - M-Pesa STK Push: payments/stk-push.md
+    - Unmatched Payments: payments/unmatched.md
+  - Invoices:
+    - Overview: invoices/index.md
+    - Creating an Invoice: invoices/creating.md
+    - Managing Invoices: invoices/managing.md
   - Subscriber Guide:
     - Overview: subscriber/index.md
     - Account Registration: subscriber/registration.md
     - FAQ: subscriber/faq.md
+  - Call Center:
+    - Overview: call-center/index.md
+    - Support Channels: call-center/support-channels.md
+    - Escalation Process: call-center/escalation.md
