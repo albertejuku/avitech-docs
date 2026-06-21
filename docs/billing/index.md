@@ -1,6 +1,6 @@
 # Portal Overview
 
-The Avitech Cloud billing portal is where you manage every aspect of your ISP operations — subscribers, service plans, subscriptions, payments, and invoices.
+The CoreSync billing portal is where you manage every aspect of your ISP operations — subscribers, service plans, subscriptions, payments, and invoices.
 
 Use the sidebar on the left (or the sections below) to navigate to the area you need.
 

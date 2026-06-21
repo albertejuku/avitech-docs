@@ -1,3 +1,3 @@
 # Subscriber Guide
 
-New to Avitech Cloud? Start here.
+New to CoreSync? Start here.

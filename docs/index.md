@@ -1,6 +1,6 @@
-# Avitech Cloud — Documentation
+# CoreSync — Documentation
 
-Welcome to the Avitech Cloud documentation. Use the tabs at the top to jump between portals.
+Welcome to the CoreSync documentation. Use the tabs at the top to jump between portals.
 
 ## Portals
 

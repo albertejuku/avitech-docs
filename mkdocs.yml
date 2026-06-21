@@ -1,7 +1,7 @@
-site_name: Avitech Cloud - User Manuals
+site_name: CoreSync Docs
 site_url: https://manual.avitechcloud.com
-site_description: User documentation for Avitech Cloud systems
-site_author: Avitech Cloud
+site_description: User documentation for CoreSync systems
+site_author: CoreSync
 
 theme:
   name: material

@@ -1,3 +1,3 @@
 # Call Center
 
-Get help from the Avitech Cloud support team.
+Get help from the CoreSync support team.

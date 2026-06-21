@@ -2,7 +2,7 @@
 
 ## Accessing the Portal
 
-Open your browser and navigate to your Avitech Cloud billing portal URL. The login page will appear.
+Open your browser and navigate to your CoreSync billing portal URL. The login page will appear.
 
 *Screenshot: Login page — add image here*
 

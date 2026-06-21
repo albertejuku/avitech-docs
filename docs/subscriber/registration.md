@@ -2,7 +2,7 @@
 
 ## New Subscriber
 
-1. Visit an Avitech Cloud service point or contact sales
+1. Visit a CoreSync service point or contact sales
 2. Provide a valid ID and your address
 3. Choose your plan
 4. Receive your account credentials via SMS
