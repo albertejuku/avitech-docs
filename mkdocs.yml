@@ -50,8 +50,8 @@ nav:
   - Home: index.md
   - Billing Portal:
     - Getting Started:
-      - Logging In: billing/getting-started.md
       - Portal Overview: billing/index.md
+      - Logging In: billing/getting-started.md
       - Your Account: billing/account.md
     - Subscribers:
       - Overview: subscribers/index.md

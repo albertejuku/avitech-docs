@@ -2,46 +2,41 @@
 
 ## Accessing the Portal
 
-Open your browser and navigate to your CoreSync billing portal URL. The login page will appear.
+Open your browser and go to your CoreSync portal URL. You will see the login page.
 
-*Screenshot: Login page — add image here*
+## Login
 
-## Login Fields
-
-| Field | Description |
+| Field | What to enter |
 |---|---|
-| Email / Username | Your administrator email address or username |
+| Email / Username | The email address or username assigned to your account |
 | Password | Your account password |
 
-Click **Sign In** to proceed.
+Click **Sign In**.
 
 !!! tip "Forgot your password?"
-    Click **Forgot Password** on the login page to receive a reset link by email.
+    Click **Forgot Password** on the login page. A reset link will be sent to your email.
 
-## After Login
+## The Dashboard
 
-You land on the **Dashboard**, which shows a summary of your system — active subscribers, recent payments, device status, and alerts.
+After logging in, you land on the **Dashboard**. It gives you a live summary of the system:
 
-The **sidebar** on the left gives you access to all sections of the portal:
+- **Active subscribers** — count and online/offline breakdown
+- **Revenue overview** — today's collections, monthly recurring revenue
+- **Recent payments** — latest transactions across all payment methods
+- **Device status** — routers and NAS devices that are up or down
+- **Open tickets** — unresolved support tickets requiring attention
 
-| Section | What's Here |
-|---|---|
-| Dashboard | System overview and key metrics |
-| Subscribers | All subscriber accounts, plans, subscriptions, communications |
-| Billing | Invoices, Payments, Reports |
-| Network | Devices, Zones, Active Sessions |
-| Support | Tickets and automations |
-| Settings | System configuration, users, notifications |
+## First-Time Setup
 
-## Recommended First Steps
+If you are setting up the portal for a new tenant, follow this checklist in order:
 
-If you are setting up the portal for the first time:
+1. **Create Zones** — Go to Network → Zones and define your coverage areas (neighborhoods, buildings, regions)
+2. **Add Network Devices** — Go to Network → Devices and register your routers, OLTs, and NAS devices
+3. **Configure IP Pools** — Go to Network → IP Pools and set up your IP address ranges
+4. **Create Service Plans** — Go to Billing → Plans and define your service offerings with pricing and speed tiers
+5. **Add Subscribers** — Go to Subscribers and start creating subscriber accounts, assigning plans
 
-1. **Create Speed Profiles** — Go to Services → Speed Profiles and define your speed tiers (e.g. 10Mbps, 20Mbps, 50Mbps)
-2. **Create Zones** — Define your coverage zones (e.g. by neighborhood or building)
-3. **Add Devices** — Register your routers and NAS devices under Network → Devices
-4. **Create Plans** — Go to Subscribers → Plans and create your service offerings
-5. **Add Subscribers** — Start adding subscriber accounts and assigning plans
+Each step is covered in detail in its respective section of this manual.
 
 !!! note "Role-Based Access"
-    Depending on your user role, some sections may not be visible or available. Contact your system administrator if you need access to a section that is not shown.
+    What you see depends on your assigned role. If a section is missing, contact your system administrator.
