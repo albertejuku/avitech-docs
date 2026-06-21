@@ -50,42 +50,49 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - Getting Started:
-    - Logging In: billing/getting-started.md
-    - Portal Overview: billing/index.md
-  - Subscribers:
-    - Overview: subscribers/index.md
-    - Subscriber List: subscribers/list.md
-    - Adding a Subscriber: subscribers/creating.md
-    - Subscriber Details: subscribers/details.md
-    - Subscription Tab: subscribers/subscription-tab.md
-    - Payments Tab: subscribers/payments-tab.md
-    - Sending Messages: subscribers/messaging.md
-    - Bulk Operations: subscribers/bulk-operations.md
-  - Plans:
-    - Overview: plans/index.md
-    - Managing Plans: plans/managing.md
-    - Plan Lifecycle: plans/lifecycle.md
-    - Fair Usage Policy (FUP): plans/fup.md
-  - Subscriptions:
-    - Overview: subscriptions/index.md
-    - Revenue Metrics: subscriptions/metrics.md
-    - Renewing & Changing Plans: subscriptions/renewing.md
-    - Suspending & Cancelling: subscriptions/managing.md
-  - Payments:
-    - Overview: payments/index.md
-    - Recording a Manual Payment: payments/manual.md
-    - M-Pesa STK Push: payments/stk-push.md
-    - Unmatched Payments: payments/unmatched.md
-  - Invoices:
-    - Overview: invoices/index.md
-    - Creating an Invoice: invoices/creating.md
-    - Managing Invoices: invoices/managing.md
+  - Billing Portal:
+    - Getting Started:
+      - Logging In: billing/getting-started.md
+      - Portal Overview: billing/index.md
+      - Your Account: billing/account.md
+    - Subscribers:
+      - Overview: subscribers/index.md
+      - Subscriber List: subscribers/list.md
+      - Adding a Subscriber: subscribers/creating.md
+      - Subscriber Details: subscribers/details.md
+      - Subscription Tab: subscribers/subscription-tab.md
+      - Payments Tab: subscribers/payments-tab.md
+      - Sending Messages: subscribers/messaging.md
+      - Bulk Operations: subscribers/bulk-operations.md
+    - Plans:
+      - Overview: plans/index.md
+      - Managing Plans: plans/managing.md
+      - Plan Lifecycle: plans/lifecycle.md
+      - Fair Usage Policy (FUP): plans/fup.md
+    - Subscriptions:
+      - Overview: subscriptions/index.md
+      - Revenue Metrics: subscriptions/metrics.md
+      - Renewing & Changing Plans: subscriptions/renewing.md
+      - Suspending & Cancelling: subscriptions/managing.md
+    - Payments:
+      - Overview: payments/index.md
+      - Recording a Manual Payment: payments/manual.md
+      - M-Pesa STK Push: payments/stk-push.md
+      - Unmatched Payments: payments/unmatched.md
+    - Invoices:
+      - Overview: invoices/index.md
+      - Creating an Invoice: invoices/creating.md
+      - Managing Invoices: invoices/managing.md
+    - Troubleshooting: billing/troubleshooting.md
+  - Network Portal:
+    - Overview: network/index.md
+    - Connection Status: network/connection-status.md
+    - Data Usage: network/usage.md
   - Subscriber Guide:
     - Overview: subscriber/index.md
     - Account Registration: subscriber/registration.md
     - FAQ: subscriber/faq.md
-  - Call Center:
+  - Support:
     - Overview: call-center/index.md
     - Support Channels: call-center/support-channels.md
     - Escalation Process: call-center/escalation.md
