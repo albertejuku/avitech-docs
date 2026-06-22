@@ -2,7 +2,7 @@
 
 The subscriber list is your main view of every customer. It shows who is online right now, who is suspended, and lets you act on any account.
 
-*Screenshot: Full subscriber list page — add image here*
+![Subscriber list](../assets/subscribers-list-overview.png)
 
 ## Finding a Subscriber
 
