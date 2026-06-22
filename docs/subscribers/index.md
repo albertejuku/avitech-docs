@@ -1,53 +1,38 @@
 # Subscribers
 
-The Subscribers section is the core of the billing portal. Every internet customer is a subscriber — this is where you create accounts, monitor connectivity, manage subscriptions, process payments, and take action on individual accounts.
+Every internet customer is a subscriber. This is where you create accounts, assign plans, monitor connectivity, process payments, and manage their lifecycle.
 
-## What You Can Do
+## Subscriber Statuses
 
-- View all subscribers with live online/offline status
-- Filter by status, zone, router, or service type
-- Add new subscribers
-- Suspend, reactivate, or terminate accounts
-- View per-subscriber subscription, payment history, and traffic
-- Send SMS or email to individual subscribers
-- Bulk-extend subscriptions for a group of subscribers
-- Import subscribers from CSV / export the list
+A subscriber has two independent states — their billing status and their live connection status.
 
-## Key Concepts
-
-**Account Number** — A unique identifier automatically assigned to each subscriber. Used for support and billing references.
-
-**Status** — The current billing/account state of the subscriber:
-
-| Status | Meaning |
+| Billing Status | Meaning |
 |---|---|
-| Active | Account is in good standing, internet access is provisioned |
-| Suspended | Access has been removed, usually due to non-payment |
+| Active | Account is in good standing, can access the internet |
+| Suspended | Access removed, usually for non-payment |
 | Terminated | Account permanently closed |
 | Draft | Account created but not yet activated |
 
-**Online Status** — The real-time network connection state (independent of billing status):
-
-| Online Status | Meaning |
+| Connection Status | Meaning |
 |---|---|
-| Online | Subscriber is currently connected and passing traffic |
-| Offline | Subscriber is not connected |
-| No Internet | Connected to the network but traffic is blocked (e.g. suspended) |
+| Online | Connected and passing traffic |
+| Offline | Not currently connected |
+| No Internet | Connected to the network but blocked from internet access |
 
-**Service Type** — The type of network connection:
+## Service Types
 
-| Type | Description |
+| Type | How it works |
 |---|---|
-| PPPoE | Dial-up style authentication via RADIUS |
-| Static | Fixed IP address assigned to the subscriber |
+| PPPoE | Subscriber logs in with a username and password via RADIUS |
+| Static IP | Subscriber has a fixed IP address assigned |
 | Hotspot | Captive portal / WiFi access |
 
-## Navigation
+## Pages in This Section
 
-- [Subscriber List](list.md) — search, filter, and act on all subscribers
-- [Adding a Subscriber](creating.md) — step-by-step account creation
+- [Subscriber List](list.md) — browse, search, filter, and act on all subscribers
+- [Adding a Subscriber](creating.md) — create a new subscriber account
 - [Subscriber Details](details.md) — the full detail page and its tabs
-- [Subscription Tab](subscription-tab.md) — manage plans, renewals, grace period
+- [Subscription Tab](subscription-tab.md) — plans, renewals, grace period
 - [Payments Tab](payments-tab.md) — per-subscriber payment history
-- [Sending Messages](messaging.md) — SMS and email
-- [Bulk Operations](bulk-operations.md) — extend subscriptions, push static routes
+- [Sending Messages](messaging.md) — SMS and email to subscribers
+- [Bulk Operations](bulk-operations.md) — extend subscriptions, import, export
