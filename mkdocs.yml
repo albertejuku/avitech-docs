@@ -84,8 +84,10 @@ nav:
     - Troubleshooting: billing/troubleshooting.md
   - Network Portal:
     - Overview: network/index.md
-    - Connection Status: network/connection-status.md
-    - Data Usage: network/usage.md
+    - Speed Profiles: network/speed-profiles.md
+    - Zones: network/zones.md
+    - Devices: network/devices.md
+    - IP Pools: network/ip-pools.md
   - Subscriber Guide:
     - Overview: subscriber/index.md
     - Account Registration: subscriber/registration.md

@@ -1,74 +1,72 @@
 # Setup Guide
 
-Follow this guide in order when setting up CoreSync for a new tenant. Each step links to the detailed page that explains how to do it.
+Follow these steps in order when setting up CoreSync for the first time. Each step links to the page that shows you exactly how to do it.
 
 ---
 
 ## 1. Speed Profiles
 
-Speed profiles define the bandwidth tiers you offer subscribers (e.g. 10Mbps, 20Mbps, 50Mbps). Plans reference speed profiles to set RADIUS rate limits.
+Speed profiles define your internet speed tiers — for example 10Mbps, 20Mbps, or 50Mbps. Every service plan references a speed profile to set the subscriber's bandwidth limits.
 
-Go to **Services → Speed Profiles** in the portal to create your speed tiers before creating plans.
+[How to create speed profiles →](../network/speed-profiles.md)
 
 ---
 
 ## 2. Zones
 
-Zones represent your coverage areas — neighborhoods, buildings, regions, or any grouping that makes sense for your network.
+Zones are your coverage areas — neighborhoods, buildings, or regions. Every subscriber belongs to a zone, and zones determine which network device serves them.
 
-Go to **Network → Zones** to define your zones. Subscribers are assigned to a zone during creation, which determines which router or NAS device serves them.
+[How to set up zones →](../network/zones.md)
 
 ---
 
 ## 3. Network Devices
 
-Register your routers, OLTs, NAS devices, and switches. These are the physical devices that authenticate and route subscriber traffic.
+Add your routers, OLTs, and NAS devices. These are the physical hardware that authenticate subscribers and route their traffic. PPPoE subscribers need a RADIUS-enabled device. Static IP subscribers need a device that manages IP pools.
 
-Go to **Network → Devices** to add each device. For PPPoE subscribers, the device must be RADIUS-enabled. For Static IP subscribers, the device manages the IP pool assignments.
+[How to add network devices →](../network/devices.md)
 
 ---
 
 ## 4. IP Pools
 
-If you offer Static IP services, configure your IP address ranges. Each IP pool is linked to a network device.
+If you offer Static IP services, define your IP address ranges here. Each pool is linked to a network device, and the system assigns IPs from these pools when creating Static IP subscribers.
 
-Go to **Network → IP Pools** to define your ranges. The system will assign IPs from these pools when creating Static IP subscribers.
+[How to configure IP pools →](../network/ip-pools.md)
 
 ---
 
 ## 5. Service Plans
 
-Plans define what subscribers get — speed, data limits, billing cycle, and price.
+Plans define what subscribers get — speed, data limit, billing cycle, and price. Create your plans after speed profiles are in place so you can link them.
 
-See [Managing Plans](../plans/managing.md) for the full guide on creating plans. Key decisions:
+[How to create and manage plans →](../plans/managing.md)
 
 - **Fixed plans** — recurring billing (Daily, Weekly, Monthly, Quarterly, Yearly)
 - **Hotspot plans** — time or data-limited, with optional trial mode
-- Set pricing, speed profiles, data limits, and Fair Usage Policy (FUP) thresholds
 
 !!! tip "Plan Codes"
-    Use short, descriptive plan codes (e.g. `HOME-20M`, `BIZ-50M`). They must be unique and will appear throughout the portal.
+    Use short, descriptive codes like `HOME-20M` or `BIZ-50M`. They must be unique.
 
 ---
 
-## 6. Import Subscribers
+## 6. Add Subscribers
 
-Once your zones, devices, and plans are in place, add your subscribers.
+Once zones, devices, and plans are ready, add your subscribers.
 
-See [Adding a Subscriber](../subscribers/creating.md) for individual creation, or [Bulk Operations](../subscribers/bulk-operations.md) for importing via CSV.
+- [Adding subscribers one at a time →](../subscribers/creating.md)
+- [Importing subscribers in bulk via CSV →](../subscribers/bulk-operations.md)
 
-Imported subscribers are created in **Draft** status by default. Activate them individually, or use **Bulk Extend** to activate in batch.
+Imported subscribers start in **Draft** status. Activate them individually or use Bulk Extend to activate in batch.
 
 ---
 
 ## 7. Final Checks
 
-After setup, verify:
-
-- [ ] Each zone has at least one network device assigned
-- [ ] Each plan has a speed profile linked
+- [ ] Every zone has at least one device assigned
+- [ ] Every plan has a speed profile linked
 - [ ] IP pools are configured (if using Static IP)
-- [ ] A few test subscribers can connect and pass traffic
-- [ ] Payments and invoice flows work end-to-end
+- [ ] Test a few subscribers — can they connect and pass traffic?
+- [ ] Record a test payment — does the invoice flow work?
 
-If any step fails, see the [Troubleshooting](troubleshooting.md) guide.
+If anything fails, see [Troubleshooting](troubleshooting.md).
