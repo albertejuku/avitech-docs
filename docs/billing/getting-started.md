@@ -4,6 +4,8 @@
 
 Open your browser and go to your CoreSync portal URL. You will see the login page.
 
+![Login page](../assets/login_page.png)
+
 ## Login
 
 | Field | What to enter |
