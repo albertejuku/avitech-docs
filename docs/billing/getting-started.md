@@ -28,17 +28,11 @@ After logging in, you land on the **Dashboard**. It gives you a live summary of 
 - **Device status** — routers and NAS devices that are up or down
 - **Open tickets** — unresolved support tickets requiring attention
 
+![Dashboard](../assets/billing-dashboard.png)
+
 ## First-Time Setup
 
-If you are setting up the portal for a new tenant, follow this checklist in order:
-
-1. **Create Zones** — Go to Network → Zones and define your coverage areas (neighborhoods, buildings, regions)
-2. **Add Network Devices** — Go to Network → Devices and register your routers, OLTs, and NAS devices
-3. **Configure IP Pools** — Go to Network → IP Pools and set up your IP address ranges
-4. **Create Service Plans** — Go to Billing → Plans and define your service offerings with pricing and speed tiers
-5. **Add Subscribers** — Go to Subscribers and start creating subscriber accounts, assigning plans
-
-Each step is covered in detail in its respective section of this manual.
+If you are setting up the portal for a new tenant, see the [Setup Guide](setup.md) for a step-by-step walkthrough covering speed profiles, zones, devices, IP pools, service plans, and importing subscribers.
 
 !!! note "Role-Based Access"
     What you see depends on your assigned role. If a section is missing, contact your system administrator.

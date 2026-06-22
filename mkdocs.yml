@@ -52,7 +52,7 @@ nav:
     - Getting Started:
       - Portal Overview: billing/index.md
       - Logging In: billing/getting-started.md
-      - Your Account: billing/account.md
+      - Setup Guide: billing/setup.md
     - Subscribers:
       - Overview: subscribers/index.md
       - Subscriber List: subscribers/list.md
